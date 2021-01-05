@@ -52,16 +52,3 @@ cmake -G "Visual Studio 14 2015 Win64" ..
 msbuild /p:Configuration=Release ALL_BUILD.vcxproj OR open libftl.sln in Visual Studio
 ```
 *ftl_app.exe will be placed in build/release directory*
-
-### Running Test Application
-
-download the following test files:
-
- - sintel.h264: https://www.dropbox.com/s/ruijibs0lgjnq51/sintel.h264
- - sintel.opus: https://www.dropbox.com/s/s2r6lggopt9ftw5/sintel.opus
-
-In the directory containing ftl_app
-
-```
-ftl_app -i auto -s "<mixer stream key>" -v path\to\sintel.h264 -a path\to\sintel.opus -f 24
-```

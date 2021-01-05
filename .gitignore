@@ -3,4 +3,5 @@
 *.orig
 .vs/*
 publish
-build-output
+build
+cmake-build-debug
